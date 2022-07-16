@@ -649,10 +649,23 @@ html {
 
     .motivation_box {
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .motivation img {
         justify-content: center;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    #motivation_title {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .motivation img {
+        width: 100%;
         object-fit: cover;
         object-position: center;
     }
